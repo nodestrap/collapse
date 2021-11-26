@@ -1,9 +1,9 @@
 {
   "name": "@nodestrap/collapse",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A generic element with dynamic visibility (show/hide).",
   "type": "module",
-  "main": "dist/Collapse.jsx",
+  "main": "dist/Collapse.js",
   "types": "dist/Collapse.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,10 +35,10 @@
     "@cssfn/css-types": "^1.0.2",
     "@cssfn/cssfn": "^1.0.3",
     "@cssfn/react-cssfn": "^1.0.3",
-    "@nodestrap/basic": "^4.0.2",
-    "@nodestrap/indicator": "^4.0.2",
-    "@nodestrap/popup": "^4.0.1",
-    "@types/react": "^17.0.36",
+    "@nodestrap/basic": "^4.0.3",
+    "@nodestrap/indicator": "^4.0.3",
+    "@nodestrap/popup": "^4.0.2",
+    "@types/react": "^17.0.37",
     "react": "^17.0.2"
   }
 }

@@ -206,12 +206,10 @@ export function Collapse(props) {
     // variants:
     const orientationVariant = useOrientationVariant(props);
     // jsx:
-    return (<Popup 
-    // other props:
-    {...props} 
-    // classes:
-    mainClass={props.mainClass ?? sheet.main} variantClasses={[...(props.variantClasses ?? []),
+    return (React.createElement(Popup, { ...props, 
+        // classes:
+        mainClass: props.mainClass ?? sheet.main, variantClasses: [...(props.variantClasses ?? []),
             orientationVariant.class,
-        ]}/>);
+        ] }));
 }
 export { Collapse as default };
