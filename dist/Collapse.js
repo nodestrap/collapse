@@ -143,7 +143,7 @@ export const useCollapseSheet = createUseSheet(() => [
             usesCollapseStates(),
         ]),
     ]),
-]);
+], /*sheetId :*/ 'gh2oi6zjs0'); // an unique salt for SSR support, ensures the server-side & client-side have the same generated class names
 // configs:
 export const [cssProps, cssDecls, cssVals, cssConfig] = createCssConfig(() => {
     //#region keyframes
