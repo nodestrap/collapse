@@ -5,12 +5,12 @@ import { PopupPlacement, PopupModifier, PopupPosition, PopupProps } from '@nodes
 export declare const defaultOrientationRuleOptions: OrientationRuleOptions;
 /**
  * Uses active & passive states.
- * @returns A `[Factory<StyleCollection>, ReadonlyRefs, ReadonlyDecls]` represents active & passive state definitions.
+ * @returns A `[Factory<Rule>, ReadonlyRefs, ReadonlyDecls]` represents active & passive state definitions.
  */
-export declare const usesActivePassiveState: () => readonly [() => import("@cssfn/cssfn").StyleCollection, import("@cssfn/css-var").ReadonlyRefs<import("@nodestrap/indicator").ActivePassiveVars>, import("@cssfn/css-var").ReadonlyDecls<import("@nodestrap/indicator").ActivePassiveVars>];
-export declare const usesCollapseLayout: (options?: OrientationRuleOptions | undefined) => import("@cssfn/cssfn").StyleCollection;
-export declare const usesCollapseVariants: () => import("@cssfn/cssfn").StyleCollection;
-export declare const usesCollapseStates: () => import("@cssfn/cssfn").StyleCollection;
+export declare const usesActivePassiveState: () => readonly [() => import("@cssfn/cssfn").Rule, import("@cssfn/css-var").ReadonlyRefs<import("@nodestrap/indicator").ActivePassiveVars>, import("@cssfn/css-var").ReadonlyDecls<import("@nodestrap/indicator").ActivePassiveVars>];
+export declare const usesCollapseLayout: (options?: OrientationRuleOptions | undefined) => import("@cssfn/cssfn").Rule;
+export declare const usesCollapseVariants: () => import("@cssfn/cssfn").Rule;
+export declare const usesCollapseStates: () => import("@cssfn/cssfn").Rule;
 export declare const useCollapseSheet: import("@cssfn/types").Factory<import("jss").Classes<"main">>;
 export declare const cssProps: import("@cssfn/css-config").Refs<{
     filterActive: import("@cssfn/css-types").Cust.Ref;
