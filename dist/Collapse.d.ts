@@ -1,7 +1,7 @@
 /// <reference types="react" />
 import type { PropEx } from '@cssfn/css-types';
 import { OrientationName, OrientationRuleOptions, OrientationVariant } from '@nodestrap/basic';
-import { PopupPlacement, PopupModifier, PopupPosition, PopupProps } from '@nodestrap/popup';
+import { PopupPlacement, PopupMiddleware, PopupStrategy, PopupProps } from '@nodestrap/popup';
 export declare const defaultOrientationRuleOptions: OrientationRuleOptions;
 /**
  * Uses active & passive states.
@@ -48,4 +48,4 @@ export interface CollapseProps<TElement extends HTMLElement = HTMLElement> exten
 export declare function Collapse<TElement extends HTMLElement = HTMLElement>(props: CollapseProps<TElement>): JSX.Element;
 export { Collapse as default };
 export type { OrientationName, OrientationVariant };
-export type { PopupPlacement, PopupModifier, PopupPosition };
+export type { PopupPlacement, PopupMiddleware, PopupStrategy };
